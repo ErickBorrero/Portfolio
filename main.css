@@ -1,0 +1,22 @@
+@font-face {
+  font-family: bill smith;
+  src: url(fonts/Bill-Smith.ttf);
+}
+h1 {
+  color: lightgray;
+  font-family: "bill smith";
+  font-size: 25px;
+}
+
+.background {
+  background-color: black;
+}
+
+#contact-form {
+  justify-content: center;
+}
+
+#jumbotron {
+  background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+  background-size: 100% 100%;
+}
