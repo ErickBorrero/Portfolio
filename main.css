@@ -1,11 +1,16 @@
 @font-face {
   font-family: bill smith;
-  src: url(./fonts/Bill-Smith.ttf);
+  src: url(../fonts/Bill-Smith.ttf);
 }
 h1 {
   color: lightgray;
   font-family: "bill smith" !important;
   font-size: 50px;
+}
+
+h2 {
+  color: black;
+  font-family: "bill smith" !important;
 }
 
 body {
@@ -127,4 +132,9 @@ footer a {
 
 #sticky-footer {
   flex-shrink: none;
+}
+
+#profile-pic {
+  border-radius: 50%;
+  padding-bottom: 2em;
 }
