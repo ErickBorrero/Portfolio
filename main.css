@@ -1,6 +1,6 @@
 @font-face {
   font-family: bill smith;
-  src: url(fonts/Bill-Smith.ttf);
+  src: url(./fonts/Bill-Smith.ttf);
 }
 h1 {
   color: lightgray;
