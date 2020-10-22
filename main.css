@@ -1,7 +1,23 @@
 @font-face {
   font-family: bill smith;
-  src: url("./fonts/Bill-Smith.ttf");
+  src: url("Fonts/Bill-Smith.ttf");
 }
+
+@font-face {
+  font-family: primer;
+  src: url("Fonts/primer-print.ttf");
+}
+
+@font-face {
+  font-family: khand;
+  src: url(Fonts/khand.ttf);
+}
+
+@font-face {
+  font-family: betmo;
+  src: url(Fonts/Betmo.otf);
+}
+
 h1 {
   color: lightgray;
   font-family: "bill smith" !important;
@@ -13,8 +29,26 @@ h2 {
   font-family: "bill smith" !important;
 }
 
+h3 {
+  font-family: "khand";
+  position: relative;
+  top: 40px;
+}
+
+h4 {
+  font-family: "betmo";
+  position: relative;
+  left: -200px;
+  top: -175px;
+}
+
 body {
   background-image: linear-gradient(gray, white);
+}
+
+p {
+  font-family: "primer";
+  font-size: 22px;
 }
 
 footer a {
@@ -125,7 +159,7 @@ footer a {
 }
 
 #jumbotron {
-  background-image: url(images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+  background-image: url("Images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg");
   background-size: 100% 100%;
   position: relative;
 }
@@ -136,5 +170,19 @@ footer a {
 
 #profile-pic {
   border-radius: 50%;
+  padding-bottom: 2em;
+}
+
+#about-content {
+  padding-bottom: 4em;
+  padding-top: 1em;
+}
+
+#projects-content {
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+
+#contact-form {
   padding-bottom: 2em;
 }
