@@ -31,15 +31,10 @@ h2 {
 
 h3 {
   font-family: "khand";
-  position: relative;
-  top: 40px;
 }
 
 h4 {
   font-family: "betmo";
-  position: relative;
-  left: -200px;
-  top: -175px;
 }
 
 body {
@@ -171,6 +166,9 @@ footer a {
 #profile-pic {
   border-radius: 50%;
   padding-bottom: 2em;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 #about-content {
@@ -185,4 +183,11 @@ footer a {
 
 #contact-form {
   padding-bottom: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
